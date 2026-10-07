@@ -1,0 +1,29 @@
+# --- secrets (NEVER commit real keys) ---
+.env
+.env.local
+desktop/.env
+web/.env
+web/.env.local
+desktop/_embedded_env.py
+
+# --- python ---
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.spec
+
+# --- node ---
+web/node_modules/
+web/.next/
+web/out/
+web/*.tsbuildinfo
+
+# --- os / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
